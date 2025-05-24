@@ -27,7 +27,7 @@ We propose CoreMatching, **a co-adaptive sparse inference framework**, which lev
 
 ## Install
 
-1. Clone the repo and navigate to Dobi-SVD:
+1. Clone the repo and navigate to corematching:
 
 ```python
 git clone https://github.com/wangqinsi1/corematching.git
