@@ -74,7 +74,7 @@ We provide simple Jupyter files in *notebooks/* to reproduce the visualization r
 
 ## Evaluation
 
-You can quickly start evaluating the task performance. Our code is built on the LlaVA-v1.5 repository, so you can follow the instructions of them exactly to perform evaluation. 
+You can quickly start evaluating the task performance. Our code is built on the [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA/tree/main) repository, so you can follow the instructions of them exactly to perform evaluation. 
 
 #### VQAv2
 
