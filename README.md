@@ -7,7 +7,7 @@
 
 We propose CoreMatching, **a co-adaptive sparse inference framework**, which leverages the synergy between token and neuron sparsity to enhance inference efficiency. **For the first time, we theoretically prove why token selection metrics based on angle cosin similarity are superior to metrics based on attention scores.** On the NVIDIA Titan Xp, it achieved 5× FLOPs reduction and a 10× overall speedup.
 
-**Paper Link:** 
+**Paper Link:** [https://arxiv.org/abs/2505.19235](https://arxiv.org/abs/2505.19235)
 
 
 
@@ -210,7 +210,15 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/qbench.sh dev
 More technical details can be found in our paper. If you find Corematching useful or relevant to your project and research, please kindly cite our paper:
 
 ```
-
+@misc{wang2025corematchingcoadaptivesparseinference,
+      title={CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models}, 
+      author={Qinsi Wang and Hancheng Ye and Ming-Yu Chung and Yudong Liu and Yueqian Lin and Martin Kuo and Mingyuan Ma and Jianyi Zhang and Yiran Chen},
+      year={2025},
+      eprint={2505.19235},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.19235}, 
+}
 ```
 
 
